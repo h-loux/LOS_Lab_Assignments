@@ -1,0 +1,7 @@
+[REVIEW  ] Oct 12 14:22:10  login for 'eve' from 192.168.1.35 after 6 failed attempts
+[INFO    ] Oct 12 23:32:41  off-hours login for 'bob' from internal address 192.168.1.21 (not escalated)
+[CRITICAL] Oct 13 03:39:47  login for 'carol' from 203.0.113.77 after 12 failed attempts
+    -> 03:41:12  sudo by 'carol': /bin/bash
+    -> 03:42:25  sudo by 'carol': /bin/cat /etc/shadow
+    -> 03:43:02  sudo by 'carol': /usr/sbin/useradd -m svc_backup
+    -> 03:43:03  NEW ACCOUNT created: svc_backup

@@ -1,0 +1,71 @@
+==============================================================
+ SSH AUTHENTICATION LOG ANALYSIS REPORT
+ Log file : auth_simulated.log
+ Lines    : 236
+ Period   : Oct 12 01:30:12  to  Oct 13 19:12:30
+==============================================================
+
+[1] EVENT COUNTS
+  Failed password attempts             107
+    of which for non-existent users     42
+  Accepted logins                       19
+  sudo commands                          6
+  New accounts created                   1
+  Scanner banner-grab events             5
+
+[2] TOP 5 SOURCE IPs BY FAILED LOGINS (grep | sed | sort | uniq -c | sort -nr | head)
+     62  203.0.113.45
+     24  198.51.100.23
+     12  203.0.113.77
+      6  192.168.1.35
+      2  192.168.1.21
+
+[3] TOP 8 TARGETED USERNAMES
+     42  root
+     12  carol
+      9  test
+      6  eve
+      5  admin
+      4  ubuntu
+      4  postgres
+      3  user
+
+[4] SCANNER-LIKE SOURCES (connections that never attempt to authenticate)
+      5  198.51.100.99
+
+[5] PER-IP ANALYSIS (verdict thresholds explained in the report)
+  IP               SCOPE      FAILS  USERS  MAX/5MIN FIRST           LAST               OK  VERDICT
+  203.0.113.45     external      62      7        62 Oct12-02:10:06  Oct12-02:13:41      0  BRUTE_FORCE
+  198.51.100.23    external      24     17         2 Oct12-05:00:18  Oct12-07:40:54      0  PASSWORD_SPRAYING
+  203.0.113.77     external      12      1        12 Oct13-03:38:11  Oct13-03:39:34      1  BRUTE_FORCE
+  192.168.1.35     internal       6      1         6 Oct12-14:20:06  Oct12-14:21:16      1  WATCH
+  192.168.1.21     internal       2      1         2 Oct12-10:05:13  Oct12-10:05:32      7  normal
+  192.168.1.23     internal       1      1         1 Oct13-09:14:04  Oct13-09:14:04      4  normal
+
+[6] FAILED LOGINS PER HOUR  (# = 2 failures)
+  Oct 12 02:00   62  ###############################
+  Oct 12 05:00    9  #####
+  Oct 12 06:00    9  #####
+  Oct 12 07:00    6  ###
+  Oct 12 10:00    2  #
+  Oct 12 14:00    6  ###
+  Oct 13 03:00   12  ######
+  Oct 13 09:00    1  #
+
+[7] SUCCESSFUL LOGINS FOLLOWING FAILURES, AND WHAT HAPPENED NEXT
+  [REVIEW  ] Oct 12 14:22:10  login for 'eve' from 192.168.1.35 after 6 failed attempts
+  [INFO    ] Oct 12 23:32:41  off-hours login for 'bob' from internal address 192.168.1.21 (not escalated)
+  [CRITICAL] Oct 13 03:39:47  login for 'carol' from 203.0.113.77 after 12 failed attempts
+      -> 03:41:12  sudo by 'carol': /bin/bash
+      -> 03:42:25  sudo by 'carol': /bin/cat /etc/shadow
+      -> 03:43:02  sudo by 'carol': /usr/sbin/useradd -m svc_backup
+      -> 03:43:03  NEW ACCOUNT created: svc_backup
+
+[8] ALERT SUMMARY
+  [ALERT] BRUTE_FORCE : 203.0.113.45 203.0.113.77 
+  [ALERT] PASSWORD_SPRAYING : 198.51.100.23 
+  [ALERT] WATCH : 192.168.1.35 
+  [ALERT] SCANNER : 198.51.100.99 
+  [ALERT] [CRITICAL] Oct 13 03:39:47  login for 'carol' from 203.0.113.77 after 12 failed attempts
+
+END OF REPORT

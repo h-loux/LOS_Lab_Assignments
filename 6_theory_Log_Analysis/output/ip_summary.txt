@@ -1,0 +1,7 @@
+IP               SCOPE      FAILS  USERS  MAX/5MIN FIRST           LAST               OK  VERDICT
+203.0.113.45     external      62      7        62 Oct12-02:10:06  Oct12-02:13:41      0  BRUTE_FORCE
+198.51.100.23    external      24     17         2 Oct12-05:00:18  Oct12-07:40:54      0  PASSWORD_SPRAYING
+203.0.113.77     external      12      1        12 Oct13-03:38:11  Oct13-03:39:34      1  BRUTE_FORCE
+192.168.1.35     internal       6      1         6 Oct12-14:20:06  Oct12-14:21:16      1  WATCH
+192.168.1.21     internal       2      1         2 Oct12-10:05:13  Oct12-10:05:32      7  normal
+192.168.1.23     internal       1      1         1 Oct13-09:14:04  Oct13-09:14:04      4  normal

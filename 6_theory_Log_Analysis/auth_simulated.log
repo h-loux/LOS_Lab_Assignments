@@ -1,0 +1,236 @@
+Oct 12 01:30:12 labsrv01 sshd[2601]: Did not receive identification string from 198.51.100.99 port 42414
+Oct 12 01:30:14 labsrv01 sshd[1537]: Connection closed by 198.51.100.99 port 42414 [preauth]
+Oct 12 01:33:02 labsrv01 sshd[4185]: Did not receive identification string from 198.51.100.99 port 37678
+Oct 12 01:33:04 labsrv01 sshd[3946]: Connection closed by 198.51.100.99 port 37678 [preauth]
+Oct 12 01:36:29 labsrv01 sshd[3641]: Did not receive identification string from 198.51.100.99 port 59098
+Oct 12 01:36:31 labsrv01 sshd[3505]: Connection closed by 198.51.100.99 port 59098 [preauth]
+Oct 12 01:39:23 labsrv01 sshd[2565]: Did not receive identification string from 198.51.100.99 port 39316
+Oct 12 01:39:25 labsrv01 sshd[4337]: Connection closed by 198.51.100.99 port 39316 [preauth]
+Oct 12 01:42:31 labsrv01 sshd[3594]: Did not receive identification string from 198.51.100.99 port 48059
+Oct 12 01:42:33 labsrv01 sshd[4640]: Connection closed by 198.51.100.99 port 48059 [preauth]
+Oct 12 02:10:05 labsrv01 sshd[3536]: Invalid user postgres from 203.0.113.45 port 59243
+Oct 12 02:10:06 labsrv01 sshd[3536]: Failed password for invalid user postgres from 203.0.113.45 port 59243 ssh2
+Oct 12 02:10:11 labsrv01 sshd[4219]: Failed password for root from 203.0.113.45 port 33869 ssh2
+Oct 12 02:10:15 labsrv01 sshd[3374]: Failed password for root from 203.0.113.45 port 59372 ssh2
+Oct 12 02:10:17 labsrv01 sshd[4323]: Failed password for root from 203.0.113.45 port 56246 ssh2
+Oct 12 02:10:21 labsrv01 sshd[2249]: Failed password for root from 203.0.113.45 port 46719 ssh2
+Oct 12 02:10:26 labsrv01 sshd[4156]: Failed password for root from 203.0.113.45 port 41499 ssh2
+Oct 12 02:10:31 labsrv01 sshd[1895]: Failed password for root from 203.0.113.45 port 39144 ssh2
+Oct 12 02:10:32 labsrv01 sshd[1895]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:10:36 labsrv01 sshd[3340]: Failed password for root from 203.0.113.45 port 33227 ssh2
+Oct 12 02:10:38 labsrv01 sshd[3348]: Failed password for root from 203.0.113.45 port 51794 ssh2
+Oct 12 02:10:39 labsrv01 sshd[4751]: Invalid user admin from 203.0.113.45 port 39282
+Oct 12 02:10:40 labsrv01 sshd[4751]: Failed password for invalid user admin from 203.0.113.45 port 39282 ssh2
+Oct 12 02:10:43 labsrv01 sshd[4043]: Failed password for root from 203.0.113.45 port 34231 ssh2
+Oct 12 02:10:45 labsrv01 sshd[4043]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 34231 ssh2 [preauth]
+Oct 12 02:10:46 labsrv01 sshd[4603]: Invalid user test from 203.0.113.45 port 53589
+Oct 12 02:10:47 labsrv01 sshd[4603]: Failed password for invalid user test from 203.0.113.45 port 53589 ssh2
+Oct 12 02:10:51 labsrv01 sshd[1521]: Failed password for root from 203.0.113.45 port 43038 ssh2
+Oct 12 02:10:52 labsrv01 sshd[1521]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:10:55 labsrv01 sshd[4451]: Invalid user oracle from 203.0.113.45 port 37187
+Oct 12 02:10:56 labsrv01 sshd[4451]: Failed password for invalid user oracle from 203.0.113.45 port 37187 ssh2
+Oct 12 02:10:59 labsrv01 sshd[3908]: Failed password for root from 203.0.113.45 port 37067 ssh2
+Oct 12 02:11:03 labsrv01 sshd[3211]: Failed password for root from 203.0.113.45 port 54675 ssh2
+Oct 12 02:11:05 labsrv01 sshd[2054]: Invalid user user from 203.0.113.45 port 58439
+Oct 12 02:11:06 labsrv01 sshd[2054]: Failed password for invalid user user from 203.0.113.45 port 58439 ssh2
+Oct 12 02:11:10 labsrv01 sshd[3187]: Failed password for root from 203.0.113.45 port 45560 ssh2
+Oct 12 02:11:13 labsrv01 sshd[4805]: Failed password for root from 203.0.113.45 port 39213 ssh2
+Oct 12 02:11:14 labsrv01 sshd[4805]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:11:18 labsrv01 sshd[1934]: Failed password for root from 203.0.113.45 port 45526 ssh2
+Oct 12 02:11:20 labsrv01 sshd[2921]: Failed password for root from 203.0.113.45 port 53945 ssh2
+Oct 12 02:11:23 labsrv01 sshd[4652]: Invalid user user from 203.0.113.45 port 33613
+Oct 12 02:11:24 labsrv01 sshd[4652]: Failed password for invalid user user from 203.0.113.45 port 33613 ssh2
+Oct 12 02:11:26 labsrv01 sshd[4652]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 33613 ssh2 [preauth]
+Oct 12 02:11:26 labsrv01 sshd[3449]: Failed password for root from 203.0.113.45 port 43508 ssh2
+Oct 12 02:11:30 labsrv01 sshd[2835]: Failed password for root from 203.0.113.45 port 36745 ssh2
+Oct 12 02:11:35 labsrv01 sshd[3841]: Failed password for root from 203.0.113.45 port 53038 ssh2
+Oct 12 02:11:36 labsrv01 sshd[3841]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:11:38 labsrv01 sshd[3921]: Failed password for root from 203.0.113.45 port 49794 ssh2
+Oct 12 02:11:41 labsrv01 sshd[4053]: Failed password for root from 203.0.113.45 port 43791 ssh2
+Oct 12 02:11:45 labsrv01 sshd[2455]: Invalid user admin from 203.0.113.45 port 55001
+Oct 12 02:11:46 labsrv01 sshd[2455]: Failed password for invalid user admin from 203.0.113.45 port 55001 ssh2
+Oct 12 02:11:48 labsrv01 sshd[3134]: Failed password for root from 203.0.113.45 port 33887 ssh2
+Oct 12 02:11:50 labsrv01 sshd[2210]: Invalid user test from 203.0.113.45 port 34250
+Oct 12 02:11:51 labsrv01 sshd[2210]: Failed password for invalid user test from 203.0.113.45 port 34250 ssh2
+Oct 12 02:11:53 labsrv01 sshd[4591]: Failed password for root from 203.0.113.45 port 53767 ssh2
+Oct 12 02:11:54 labsrv01 sshd[4591]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:11:56 labsrv01 sshd[4412]: Failed password for root from 203.0.113.45 port 55005 ssh2
+Oct 12 02:11:58 labsrv01 sshd[4144]: Failed password for root from 203.0.113.45 port 50132 ssh2
+Oct 12 02:12:00 labsrv01 sshd[4144]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 50132 ssh2 [preauth]
+Oct 12 02:12:00 labsrv01 sshd[3617]: Invalid user ubuntu from 203.0.113.45 port 37280
+Oct 12 02:12:01 labsrv01 sshd[3617]: Failed password for invalid user ubuntu from 203.0.113.45 port 37280 ssh2
+Oct 12 02:12:03 labsrv01 sshd[2261]: Invalid user test from 203.0.113.45 port 45546
+Oct 12 02:12:04 labsrv01 sshd[2261]: Failed password for invalid user test from 203.0.113.45 port 45546 ssh2
+Oct 12 02:12:08 labsrv01 sshd[3683]: Failed password for root from 203.0.113.45 port 46336 ssh2
+Oct 12 02:12:10 labsrv01 sshd[2748]: Failed password for root from 203.0.113.45 port 38902 ssh2
+Oct 12 02:12:11 labsrv01 sshd[2748]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:12:14 labsrv01 sshd[2579]: Failed password for root from 203.0.113.45 port 47969 ssh2
+Oct 12 02:12:18 labsrv01 sshd[4838]: Invalid user ubuntu from 203.0.113.45 port 46390
+Oct 12 02:12:19 labsrv01 sshd[4838]: Failed password for invalid user ubuntu from 203.0.113.45 port 46390 ssh2
+Oct 12 02:12:23 labsrv01 sshd[2224]: Failed password for root from 203.0.113.45 port 43443 ssh2
+Oct 12 02:12:28 labsrv01 sshd[1991]: Failed password for root from 203.0.113.45 port 50044 ssh2
+Oct 12 02:12:31 labsrv01 sshd[1887]: Invalid user postgres from 203.0.113.45 port 60551
+Oct 12 02:12:32 labsrv01 sshd[1887]: Failed password for invalid user postgres from 203.0.113.45 port 60551 ssh2
+Oct 12 02:12:35 labsrv01 sshd[1520]: Failed password for root from 203.0.113.45 port 35819 ssh2
+Oct 12 02:12:36 labsrv01 sshd[1520]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:12:39 labsrv01 sshd[2853]: Invalid user test from 203.0.113.45 port 46137
+Oct 12 02:12:40 labsrv01 sshd[2853]: Failed password for invalid user test from 203.0.113.45 port 46137 ssh2
+Oct 12 02:12:42 labsrv01 sshd[2853]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 46137 ssh2 [preauth]
+Oct 12 02:12:43 labsrv01 sshd[2941]: Failed password for root from 203.0.113.45 port 60507 ssh2
+Oct 12 02:12:46 labsrv01 sshd[3801]: Failed password for root from 203.0.113.45 port 55284 ssh2
+Oct 12 02:12:49 labsrv01 sshd[4042]: Failed password for root from 203.0.113.45 port 56230 ssh2
+Oct 12 02:12:53 labsrv01 sshd[4577]: Failed password for root from 203.0.113.45 port 51381 ssh2
+Oct 12 02:12:55 labsrv01 sshd[2707]: Invalid user admin from 203.0.113.45 port 51210
+Oct 12 02:12:56 labsrv01 sshd[2707]: Failed password for invalid user admin from 203.0.113.45 port 51210 ssh2
+Oct 12 02:12:59 labsrv01 sshd[3776]: Invalid user test from 203.0.113.45 port 37113
+Oct 12 02:13:00 labsrv01 sshd[3776]: Failed password for invalid user test from 203.0.113.45 port 37113 ssh2
+Oct 12 02:13:01 labsrv01 sshd[2580]: Invalid user ubuntu from 203.0.113.45 port 35927
+Oct 12 02:13:02 labsrv01 sshd[2580]: Failed password for invalid user ubuntu from 203.0.113.45 port 35927 ssh2
+Oct 12 02:13:07 labsrv01 sshd[1934]: Failed password for root from 203.0.113.45 port 55199 ssh2
+Oct 12 02:13:08 labsrv01 sshd[2959]: Invalid user ubuntu from 203.0.113.45 port 56438
+Oct 12 02:13:09 labsrv01 sshd[2959]: Failed password for invalid user ubuntu from 203.0.113.45 port 56438 ssh2
+Oct 12 02:13:11 labsrv01 sshd[4080]: Invalid user test from 203.0.113.45 port 36251
+Oct 12 02:13:12 labsrv01 sshd[4080]: Failed password for invalid user test from 203.0.113.45 port 36251 ssh2
+Oct 12 02:13:16 labsrv01 sshd[3908]: Failed password for root from 203.0.113.45 port 60207 ssh2
+Oct 12 02:13:17 labsrv01 sshd[3908]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 12 02:13:18 labsrv01 sshd[3908]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 60207 ssh2 [preauth]
+Oct 12 02:13:18 labsrv01 sshd[2788]: Failed password for root from 203.0.113.45 port 38056 ssh2
+Oct 12 02:13:22 labsrv01 sshd[1757]: Failed password for root from 203.0.113.45 port 33222 ssh2
+Oct 12 02:13:26 labsrv01 sshd[4681]: Invalid user postgres from 203.0.113.45 port 41190
+Oct 12 02:13:27 labsrv01 sshd[4681]: Failed password for invalid user postgres from 203.0.113.45 port 41190 ssh2
+Oct 12 02:13:32 labsrv01 sshd[1734]: Failed password for root from 203.0.113.45 port 35928 ssh2
+Oct 12 02:13:35 labsrv01 sshd[2769]: Failed password for root from 203.0.113.45 port 36799 ssh2
+Oct 12 02:13:36 labsrv01 sshd[3798]: Invalid user test from 203.0.113.45 port 51658
+Oct 12 02:13:37 labsrv01 sshd[3798]: Failed password for invalid user test from 203.0.113.45 port 51658 ssh2
+Oct 12 02:13:41 labsrv01 sshd[4693]: Failed password for root from 203.0.113.45 port 47711 ssh2
+Oct 12 05:00:17 labsrv01 sshd[2794]: Invalid user admin from 198.51.100.23 port 52683
+Oct 12 05:00:18 labsrv01 sshd[2794]: Failed password for invalid user admin from 198.51.100.23 port 52683 ssh2
+Oct 12 05:05:55 labsrv01 sshd[3395]: Invalid user admin from 198.51.100.23 port 46731
+Oct 12 05:05:56 labsrv01 sshd[3395]: Failed password for invalid user admin from 198.51.100.23 port 46731 ssh2
+Oct 12 05:15:51 labsrv01 sshd[4311]: Invalid user user from 198.51.100.23 port 45028
+Oct 12 05:15:52 labsrv01 sshd[4311]: Failed password for invalid user user from 198.51.100.23 port 45028 ssh2
+Oct 12 05:24:34 labsrv01 sshd[3093]: Invalid user test from 198.51.100.23 port 42332
+Oct 12 05:24:35 labsrv01 sshd[3093]: Failed password for invalid user test from 198.51.100.23 port 42332 ssh2
+Oct 12 05:30:37 labsrv01 sshd[4512]: Invalid user test from 198.51.100.23 port 56202
+Oct 12 05:30:38 labsrv01 sshd[4512]: Failed password for invalid user test from 198.51.100.23 port 56202 ssh2
+Oct 12 05:38:33 labsrv01 sshd[2652]: Invalid user guest from 198.51.100.23 port 55551
+Oct 12 05:38:34 labsrv01 sshd[2652]: Failed password for invalid user guest from 198.51.100.23 port 55551 ssh2
+Oct 12 05:44:51 labsrv01 sshd[2716]: Invalid user ftp from 198.51.100.23 port 57930
+Oct 12 05:44:52 labsrv01 sshd[2716]: Failed password for invalid user ftp from 198.51.100.23 port 57930 ssh2
+Oct 12 05:52:11 labsrv01 sshd[3720]: Invalid user postgres from 198.51.100.23 port 43990
+Oct 12 05:52:12 labsrv01 sshd[3720]: Failed password for invalid user postgres from 198.51.100.23 port 43990 ssh2
+Oct 12 05:57:46 labsrv01 sshd[4455]: Invalid user mysql from 198.51.100.23 port 36457
+Oct 12 05:57:47 labsrv01 sshd[4455]: Failed password for invalid user mysql from 198.51.100.23 port 36457 ssh2
+Oct 12 06:03:25 labsrv01 sshd[1984]: Invalid user jenkins from 198.51.100.23 port 33990
+Oct 12 06:03:26 labsrv01 sshd[1984]: Failed password for invalid user jenkins from 198.51.100.23 port 33990 ssh2
+Oct 12 06:08:58 labsrv01 sshd[3945]: Invalid user git from 198.51.100.23 port 53998
+Oct 12 06:08:59 labsrv01 sshd[3945]: Failed password for invalid user git from 198.51.100.23 port 53998 ssh2
+Oct 12 06:18:17 labsrv01 sshd[1617]: Invalid user git from 198.51.100.23 port 46686
+Oct 12 06:18:18 labsrv01 sshd[1617]: Failed password for invalid user git from 198.51.100.23 port 46686 ssh2
+Oct 12 06:26:25 labsrv01 sshd[3201]: Invalid user oracle from 198.51.100.23 port 45354
+Oct 12 06:26:26 labsrv01 sshd[3201]: Failed password for invalid user oracle from 198.51.100.23 port 45354 ssh2
+Oct 12 06:33:40 labsrv01 sshd[4680]: Invalid user oracle from 198.51.100.23 port 46562
+Oct 12 06:33:41 labsrv01 sshd[4680]: Failed password for invalid user oracle from 198.51.100.23 port 46562 ssh2
+Oct 12 06:42:54 labsrv01 sshd[2251]: Invalid user support from 198.51.100.23 port 50558
+Oct 12 06:42:55 labsrv01 sshd[2251]: Failed password for invalid user support from 198.51.100.23 port 50558 ssh2
+Oct 12 06:47:36 labsrv01 sshd[2544]: Invalid user backup from 198.51.100.23 port 58543
+Oct 12 06:47:37 labsrv01 sshd[2544]: Failed password for invalid user backup from 198.51.100.23 port 58543 ssh2
+Oct 12 06:52:50 labsrv01 sshd[1595]: Invalid user backup from 198.51.100.23 port 33311
+Oct 12 06:52:51 labsrv01 sshd[1595]: Failed password for invalid user backup from 198.51.100.23 port 33311 ssh2
+Oct 12 06:59:24 labsrv01 sshd[3211]: Invalid user dev from 198.51.100.23 port 41412
+Oct 12 06:59:25 labsrv01 sshd[3211]: Failed password for invalid user dev from 198.51.100.23 port 41412 ssh2
+Oct 12 07:05:32 labsrv01 sshd[4067]: Invalid user dev from 198.51.100.23 port 52220
+Oct 12 07:05:33 labsrv01 sshd[4067]: Failed password for invalid user dev from 198.51.100.23 port 52220 ssh2
+Oct 12 07:10:25 labsrv01 sshd[3765]: Invalid user deploy from 198.51.100.23 port 34013
+Oct 12 07:10:26 labsrv01 sshd[3765]: Failed password for invalid user deploy from 198.51.100.23 port 34013 ssh2
+Oct 12 07:20:20 labsrv01 sshd[2895]: Invalid user pi from 198.51.100.23 port 53510
+Oct 12 07:20:21 labsrv01 sshd[2895]: Failed password for invalid user pi from 198.51.100.23 port 53510 ssh2
+Oct 12 07:29:08 labsrv01 sshd[4543]: Invalid user pi from 198.51.100.23 port 43171
+Oct 12 07:29:09 labsrv01 sshd[4543]: Failed password for invalid user pi from 198.51.100.23 port 43171 ssh2
+Oct 12 07:33:51 labsrv01 sshd[4071]: Failed password for alice from 198.51.100.23 port 40724 ssh2
+Oct 12 07:40:54 labsrv01 sshd[4281]: Failed password for dave from 198.51.100.23 port 49434 ssh2
+Oct 12 08:39:05 labsrv01 sshd[2676]: Accepted password for bob from 192.168.1.21 port 59531 ssh2
+Oct 12 08:39:06 labsrv01 sshd[2676]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 12 09:01:05 labsrv01 sshd[2676]: pam_unix(sshd:session): session closed for user bob
+Oct 12 10:05:13 labsrv01 sshd[3425]: Failed password for bob from 192.168.1.21 port 37434 ssh2
+Oct 12 10:05:32 labsrv01 sshd[3474]: Failed password for bob from 192.168.1.21 port 40269 ssh2
+Oct 12 10:05:50 labsrv01 sshd[1999]: Accepted password for bob from 192.168.1.21 port 53302 ssh2
+Oct 12 10:05:51 labsrv01 sshd[1999]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 12 10:50:50 labsrv01 sshd[1999]: pam_unix(sshd:session): session closed for user bob
+Oct 12 11:25:16 labsrv01 sshd[4797]: Accepted password for dave from 192.168.1.23 port 45100 ssh2
+Oct 12 11:25:17 labsrv01 sshd[4797]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Oct 12 11:27:16 labsrv01 sudo: dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 12 12:18:16 labsrv01 sshd[4797]: pam_unix(sshd:session): session closed for user dave
+Oct 12 13:32:32 labsrv01 sshd[3961]: Accepted password for alice from 192.168.1.20 port 53132 ssh2
+Oct 12 13:32:33 labsrv01 sshd[3961]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 12 14:08:32 labsrv01 sshd[3961]: pam_unix(sshd:session): session closed for user alice
+Oct 12 14:20:06 labsrv01 sshd[4426]: Failed password for eve from 192.168.1.35 port 50647 ssh2
+Oct 12 14:20:20 labsrv01 sshd[2528]: Failed password for eve from 192.168.1.35 port 51111 ssh2
+Oct 12 14:20:34 labsrv01 sshd[3146]: Failed password for eve from 192.168.1.35 port 54714 ssh2
+Oct 12 14:20:48 labsrv01 sshd[2760]: Failed password for eve from 192.168.1.35 port 50729 ssh2
+Oct 12 14:21:02 labsrv01 sshd[4775]: Failed password for eve from 192.168.1.35 port 53964 ssh2
+Oct 12 14:21:16 labsrv01 sshd[3555]: Failed password for eve from 192.168.1.35 port 55650 ssh2
+Oct 12 14:22:10 labsrv01 sshd[3461]: Accepted password for eve from 192.168.1.35 port 59142 ssh2
+Oct 12 14:22:11 labsrv01 sshd[3461]: pam_unix(sshd:session): session opened for user eve by (uid=0)
+Oct 12 14:50:36 labsrv01 sshd[4492]: Accepted password for bob from 192.168.1.21 port 58214 ssh2
+Oct 12 14:50:37 labsrv01 sshd[4492]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 12 14:52:10 labsrv01 sshd[3461]: pam_unix(sshd:session): session closed for user eve
+Oct 12 15:00:52 labsrv01 sshd[3508]: Accepted password for carol from 192.168.1.22 port 55030 ssh2
+Oct 12 15:00:53 labsrv01 sshd[3508]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Oct 12 15:48:49 labsrv01 sshd[3306]: Accepted password for bob from 192.168.1.21 port 40630 ssh2
+Oct 12 15:48:50 labsrv01 sshd[3306]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 12 16:08:36 labsrv01 sshd[4492]: pam_unix(sshd:session): session closed for user bob
+Oct 12 16:35:52 labsrv01 sshd[3508]: pam_unix(sshd:session): session closed for user carol
+Oct 12 16:40:04 labsrv01 sshd[3783]: Accepted password for dave from 192.168.1.23 port 50399 ssh2
+Oct 12 16:40:05 labsrv01 sshd[3783]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Oct 12 16:42:04 labsrv01 sudo: dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 12 16:59:04 labsrv01 sshd[3783]: pam_unix(sshd:session): session closed for user dave
+Oct 12 17:11:49 labsrv01 sshd[3306]: pam_unix(sshd:session): session closed for user bob
+Oct 12 23:32:41 labsrv01 sshd[3146]: Accepted password for bob from 192.168.1.21 port 46958 ssh2
+Oct 12 23:32:42 labsrv01 sshd[3146]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 12 23:57:41 labsrv01 sshd[3146]: pam_unix(sshd:session): session closed for user bob
+Oct 13 03:38:11 labsrv01 sshd[4552]: Failed password for carol from 203.0.113.77 port 45844 ssh2
+Oct 13 03:38:18 labsrv01 sshd[4736]: Failed password for carol from 203.0.113.77 port 40386 ssh2
+Oct 13 03:38:27 labsrv01 sshd[4895]: Failed password for carol from 203.0.113.77 port 41804 ssh2
+Oct 13 03:38:34 labsrv01 sshd[2323]: Failed password for carol from 203.0.113.77 port 45047 ssh2
+Oct 13 03:38:41 labsrv01 sshd[3381]: Failed password for carol from 203.0.113.77 port 53641 ssh2
+Oct 13 03:38:49 labsrv01 sshd[3747]: Failed password for carol from 203.0.113.77 port 59357 ssh2
+Oct 13 03:38:57 labsrv01 sshd[4730]: Failed password for carol from 203.0.113.77 port 54834 ssh2
+Oct 13 03:39:06 labsrv01 sshd[2778]: Failed password for carol from 203.0.113.77 port 38925 ssh2
+Oct 13 03:39:12 labsrv01 sshd[4072]: Failed password for carol from 203.0.113.77 port 46220 ssh2
+Oct 13 03:39:18 labsrv01 sshd[3485]: Failed password for carol from 203.0.113.77 port 32942 ssh2
+Oct 13 03:39:25 labsrv01 sshd[4833]: Failed password for carol from 203.0.113.77 port 60131 ssh2
+Oct 13 03:39:34 labsrv01 sshd[4376]: Failed password for carol from 203.0.113.77 port 46148 ssh2
+Oct 13 03:39:47 labsrv01 sshd[4117]: Accepted password for carol from 203.0.113.77 port 38422 ssh2
+Oct 13 03:39:48 labsrv01 sshd[4117]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Oct 13 03:41:12 labsrv01 sudo: carol : TTY=pts/1 ; PWD=/home/carol ; USER=root ; COMMAND=/bin/bash
+Oct 13 03:42:25 labsrv01 sudo: carol : TTY=pts/1 ; PWD=/home/carol ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Oct 13 03:43:02 labsrv01 sudo: carol : TTY=pts/1 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/sbin/useradd -m svc_backup
+Oct 13 03:43:03 labsrv01 useradd[1844]: new user: name=svc_backup, UID=1007, GID=1007, home=/home/svc_backup, shell=/bin/bash
+Oct 13 03:55:47 labsrv01 sshd[4117]: pam_unix(sshd:session): session closed for user carol
+Oct 13 08:36:14 labsrv01 sshd[2028]: Accepted password for carol from 192.168.1.22 port 59576 ssh2
+Oct 13 08:36:15 labsrv01 sshd[2028]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Oct 13 09:14:04 labsrv01 sshd[4370]: Failed password for dave from 192.168.1.23 port 47736 ssh2
+Oct 13 09:14:20 labsrv01 sshd[4261]: Accepted password for dave from 192.168.1.23 port 48149 ssh2
+Oct 13 09:14:21 labsrv01 sshd[4261]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Oct 13 09:27:32 labsrv01 sshd[4572]: Accepted password for bob from 192.168.1.21 port 52434 ssh2
+Oct 13 09:27:33 labsrv01 sshd[4572]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 13 10:14:20 labsrv01 sshd[4261]: pam_unix(sshd:session): session closed for user dave
+Oct 13 10:22:14 labsrv01 sshd[2028]: pam_unix(sshd:session): session closed for user carol
+Oct 13 11:17:32 labsrv01 sshd[4572]: pam_unix(sshd:session): session closed for user bob
+Oct 13 12:29:09 labsrv01 sshd[4411]: Accepted password for alice from 192.168.1.20 port 44854 ssh2
+Oct 13 12:29:10 labsrv01 sshd[4411]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 13 12:31:09 labsrv01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 13 12:40:09 labsrv01 sshd[4411]: pam_unix(sshd:session): session closed for user alice
+Oct 13 13:29:27 labsrv01 sshd[3899]: Accepted password for alice from 192.168.1.20 port 50936 ssh2
+Oct 13 13:29:28 labsrv01 sshd[3899]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 13 14:28:27 labsrv01 sshd[3899]: pam_unix(sshd:session): session closed for user alice
+Oct 13 15:25:58 labsrv01 sshd[2559]: Accepted password for bob from 192.168.1.21 port 60439 ssh2
+Oct 13 15:25:59 labsrv01 sshd[2559]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 13 16:40:58 labsrv01 sshd[2559]: pam_unix(sshd:session): session closed for user bob
+Oct 13 16:56:42 labsrv01 sshd[4048]: Accepted password for dave from 192.168.1.23 port 46838 ssh2
+Oct 13 16:56:43 labsrv01 sshd[4048]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Oct 13 17:59:30 labsrv01 sshd[3621]: Accepted password for carol from 192.168.1.22 port 59151 ssh2
+Oct 13 17:59:31 labsrv01 sshd[3621]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Oct 13 18:35:42 labsrv01 sshd[4048]: pam_unix(sshd:session): session closed for user dave
+Oct 13 19:12:30 labsrv01 sshd[3621]: pam_unix(sshd:session): session closed for user carol
